@@ -8,7 +8,7 @@ import pandas as pd
 import pickle
 
 # --- Page setup (must be the first Streamlit command) ---
-st.set_page_config(page_title="Loan Default ML Predictor", layout="centered")
+st.set_page_config(page_title="Matt Bailey's Loan Default ML Predictor", layout="centered")
 
 # --- Open the file and load the model ---
 file_to_load = 'model.pkl'
